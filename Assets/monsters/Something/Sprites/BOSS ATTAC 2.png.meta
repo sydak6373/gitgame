@@ -1,0 +1,655 @@
+fileFormatVersion: 2
+guid: 2a6c97fc6a2d30641be676b76219ce19
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BOSS ATTAC 2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 920
+        width: 400
+        height: 230
+      alignment: 9
+      pivot: {x: 0.385, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 613a8a18055495545b4c7badb20cbbb5
+      internalID: 812668876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS ATTAC 2_1
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 920
+        width: 400
+        height: 230
+      alignment: 9
+      pivot: {x: 0.385, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a534f365e069624e9f0474eab0e75fc
+      internalID: 2065885058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS ATTAC 2_2
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 920
+        width: 400
+        height: 230
+      alignment: 9
+      pivot: {x: 0.385, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa42aa2cfb486f0408751b62e21fbaf4
+      internalID: 1628385931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS ATTAC 2_3
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 920
+        width: 400
+        height: 230
+      alignment: 9
+      pivot: {x: 0.385, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 776e0c4a5d0452a499a9e51eb481f5c2
+      internalID: 39562264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS ATTAC 2_4
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 920
+        width: 400
+        height: 230
+      alignment: 9
+      pivot: {x: 0.385, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02dfbc0b12c7ff24a854c629b0f08e6e
+      internalID: -1131448496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS ATTAC 2_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 690
+        width: 400
+        height: 230
+      alignment: 9
+      pivot: {x: 0.385, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0043bdf5845b2945b3bcf7687a358e0
+      internalID: 1170371272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS ATTAC 2_6
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 690
+        width: 400
+        height: 230
+      alignment: 9
+      pivot: {x: 0.385, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60ec872bac12b79419e1ff57f2018103
+      internalID: -305248946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS ATTAC 2_7
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 690
+        width: 400
+        height: 230
+      alignment: 9
+      pivot: {x: 0.385, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04d0b794ea57c6b47b6b354ecfb5d971
+      internalID: 332317265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS ATTAC 2_8
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 690
+        width: 400
+        height: 230
+      alignment: 9
+      pivot: {x: 0.385, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e31e97452bf03764d9d146618ec1d237
+      internalID: 651820077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS ATTAC 2_9
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 690
+        width: 400
+        height: 230
+      alignment: 9
+      pivot: {x: 0.385, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efddb62f93c76b943ae9b9a11ea75286
+      internalID: -71573423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS ATTAC 2_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 460
+        width: 400
+        height: 230
+      alignment: 9
+      pivot: {x: 0.385, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 426fff487ec34a04c841fed2d486ff30
+      internalID: 1437722642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS ATTAC 2_11
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 460
+        width: 400
+        height: 230
+      alignment: 9
+      pivot: {x: 0.385, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af7093950952838489d92c83d41d3c93
+      internalID: 124001271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS ATTAC 2_12
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 460
+        width: 400
+        height: 230
+      alignment: 9
+      pivot: {x: 0.385, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06142636894607f4c96ce7a363cbfecb
+      internalID: 1591302530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS ATTAC 2_13
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 460
+        width: 400
+        height: 230
+      alignment: 9
+      pivot: {x: 0.385, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae44fb08b08dadb459a711b0f20ce507
+      internalID: -943861009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS ATTAC 2_14
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 460
+        width: 400
+        height: 230
+      alignment: 9
+      pivot: {x: 0.385, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aff5ac6d7fc7ef45b4cac9fc92e40f3
+      internalID: -831480960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS ATTAC 2_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 230
+        width: 400
+        height: 230
+      alignment: 9
+      pivot: {x: 0.385, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6999847983667a44d878b12301d02b33
+      internalID: 1586611735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS ATTAC 2_16
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 230
+        width: 400
+        height: 230
+      alignment: 9
+      pivot: {x: 0.385, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a39d89bc16b59ad4a8eaae9738ddcea4
+      internalID: 362290778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS ATTAC 2_17
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 230
+        width: 400
+        height: 230
+      alignment: 9
+      pivot: {x: 0.385, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29f33f15f680395469d99b4aa1df47d3
+      internalID: 505250545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS ATTAC 2_18
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 230
+        width: 400
+        height: 230
+      alignment: 9
+      pivot: {x: 0.385, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a0244462f17832468c3edf6cbaa68d1
+      internalID: 91376490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS ATTAC 2_19
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 230
+        width: 400
+        height: 230
+      alignment: 9
+      pivot: {x: 0.385, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23ec4aca73621ca4cb7503288568d2fe
+      internalID: -1225991495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS ATTAC 2_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 400
+        height: 230
+      alignment: 9
+      pivot: {x: 0.385, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7abb04ee567cd84dadede7c1d8c3c1a
+      internalID: 457416906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS ATTAC 2_21
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 0
+        width: 400
+        height: 230
+      alignment: 9
+      pivot: {x: 0.385, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a38aa8962183ffc47b604541a031b1f4
+      internalID: 235202657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS ATTAC 2_22
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 0
+        width: 400
+        height: 230
+      alignment: 9
+      pivot: {x: 0.385, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc07a29720e6b8c4ba23271e6533bdc3
+      internalID: 1516068191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS ATTAC 2_23
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 0
+        width: 400
+        height: 230
+      alignment: 9
+      pivot: {x: 0.385, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2ad16117946bac4c9786f9d6758090a
+      internalID: 409732462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      BOSS ATTAC 2_0: 812668876
+      BOSS ATTAC 2_1: 2065885058
+      BOSS ATTAC 2_10: 1437722642
+      BOSS ATTAC 2_11: 124001271
+      BOSS ATTAC 2_12: 1591302530
+      BOSS ATTAC 2_13: -943861009
+      BOSS ATTAC 2_14: -831480960
+      BOSS ATTAC 2_15: 1586611735
+      BOSS ATTAC 2_16: 362290778
+      BOSS ATTAC 2_17: 505250545
+      BOSS ATTAC 2_18: 91376490
+      BOSS ATTAC 2_19: -1225991495
+      BOSS ATTAC 2_2: 1628385931
+      BOSS ATTAC 2_20: 457416906
+      BOSS ATTAC 2_21: 235202657
+      BOSS ATTAC 2_22: 1516068191
+      BOSS ATTAC 2_23: 409732462
+      BOSS ATTAC 2_3: 39562264
+      BOSS ATTAC 2_4: -1131448496
+      BOSS ATTAC 2_5: 1170371272
+      BOSS ATTAC 2_6: -305248946
+      BOSS ATTAC 2_7: 332317265
+      BOSS ATTAC 2_8: 651820077
+      BOSS ATTAC 2_9: -71573423
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

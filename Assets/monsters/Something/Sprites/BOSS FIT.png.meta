@@ -1,0 +1,523 @@
+fileFormatVersion: 2
+guid: 92c0b384b1a64d9438515343aaaab91e
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BOSS FIT_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 360
+        width: 140
+        height: 120
+      alignment: 9
+      pivot: {x: 0.2857143, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc02b7368acc6494c9e1df3f93875ffc
+      internalID: 1909197230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS FIT_1
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 360
+        width: 140
+        height: 120
+      alignment: 9
+      pivot: {x: 0.2857143, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e2f4cf1b8a005846b618bfad3fd53b8
+      internalID: 1810634885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS FIT_2
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 360
+        width: 140
+        height: 120
+      alignment: 9
+      pivot: {x: 0.2857143, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10a166eaaccb87d46b3bef242bad857c
+      internalID: 1042259195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS FIT_3
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 360
+        width: 140
+        height: 120
+      alignment: 9
+      pivot: {x: 0.2857143, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 361fcb1d8c2b97d43b6adf748b5e8a6a
+      internalID: 1821915080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS FIT_4
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 360
+        width: 140
+        height: 120
+      alignment: 9
+      pivot: {x: 0.2857143, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: effbeee846e7adc4d95a780fb3274e40
+      internalID: -1688589600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS FIT_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 140
+        height: 120
+      alignment: 9
+      pivot: {x: 0.2857143, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a59aacf196c0574eb93079998d7eddc
+      internalID: 1499715412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS FIT_6
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 240
+        width: 140
+        height: 120
+      alignment: 9
+      pivot: {x: 0.2857143, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afffe557e0e9fac4286acceef0e39662
+      internalID: -1159610183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS FIT_7
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 240
+        width: 140
+        height: 120
+      alignment: 9
+      pivot: {x: 0.2857143, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a27038f9b2456ff4fae5435919b1a0eb
+      internalID: 2120081667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS FIT_8
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 240
+        width: 140
+        height: 120
+      alignment: 9
+      pivot: {x: 0.2857143, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6044db48def1ab14ebe18454635de41e
+      internalID: -82946413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS FIT_9
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 240
+        width: 140
+        height: 120
+      alignment: 9
+      pivot: {x: 0.2857143, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 033aa10b7e9b23f4b91a9e8cee66e4c1
+      internalID: 48046366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS FIT_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 120
+        width: 140
+        height: 120
+      alignment: 9
+      pivot: {x: 0.2857143, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0ae38039d7f3fe48980b349b456c5dc
+      internalID: -804253516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS FIT_11
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 120
+        width: 140
+        height: 120
+      alignment: 9
+      pivot: {x: 0.2857143, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68b257dd9ffcb434796bdae0685c3964
+      internalID: 456633514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS FIT_12
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 120
+        width: 140
+        height: 120
+      alignment: 9
+      pivot: {x: 0.2857143, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0ef46a8378da9c469c2e38ef29de5c1
+      internalID: 2121255997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS FIT_13
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 120
+        width: 140
+        height: 120
+      alignment: 9
+      pivot: {x: 0.2857143, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60be799678861944b9a8bdc30881bf8b
+      internalID: -1685395242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS FIT_14
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 120
+        width: 140
+        height: 120
+      alignment: 9
+      pivot: {x: 0.2857143, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c3e9d2d30b9bd14bb24515f62213025
+      internalID: -227553525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS FIT_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 140
+        height: 120
+      alignment: 9
+      pivot: {x: 0.2857143, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a814a7c1000a5b64c8d3837d38f51530
+      internalID: 1407732765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS FIT_16
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 0
+        width: 140
+        height: 120
+      alignment: 9
+      pivot: {x: 0.2857143, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eb49ac9cb5069e479f501fb3e4744a9
+      internalID: 1540461168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOSS FIT_17
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 0
+        width: 140
+        height: 120
+      alignment: 9
+      pivot: {x: 0.2857143, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54b43196cb4ba2f40b53dd279ee1bdc6
+      internalID: -1966931204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      BOSS FIT_0: 1909197230
+      BOSS FIT_1: 1810634885
+      BOSS FIT_10: -804253516
+      BOSS FIT_11: 456633514
+      BOSS FIT_12: 2121255997
+      BOSS FIT_13: -1685395242
+      BOSS FIT_14: -227553525
+      BOSS FIT_15: 1407732765
+      BOSS FIT_16: 1540461168
+      BOSS FIT_17: -1966931204
+      BOSS FIT_2: 1042259195
+      BOSS FIT_3: 1821915080
+      BOSS FIT_4: -1688589600
+      BOSS FIT_5: 1499715412
+      BOSS FIT_6: -1159610183
+      BOSS FIT_7: 2120081667
+      BOSS FIT_8: -82946413
+      BOSS FIT_9: 48046366
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
