@@ -179,10 +179,7 @@ public class Enemy : MonoBehaviour
         { 
 
             stateMashine.SetState(dethEnemy); isLive = false;
-            target.GetComponent<HealthInteraction>().maxHeatpoints++;
-            target.GetComponent<HealthInteraction>().hitpoints++;
-
-            Movement.currentMovementSpeed += 0.05f;
+            
             OnDethEventUpdate?.Invoke();
         }
         else if (damage > 0) { stateMashine.SetState(idealEnemy); }

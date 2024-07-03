@@ -35,5 +35,10 @@ public class HealthInteraction : MonoBehaviour
         }
     }
 
+    public void MaxHpUp()
+    {
+        maxHeatpoints += ((int)(maxHeatpoints*0.2));
+    }
+
 
 }

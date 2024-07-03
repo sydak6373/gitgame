@@ -193,6 +193,7 @@ public class Hero : MonoBehaviour
     {
         SaveSystem.SavePlayer(health.hitpoints, health.maxHeatpoints ,transform.position);
     }
+    
     public void LoadPlayer()
     {
         PlayerData data = SaveSystem.LoadPlayer();
@@ -212,12 +213,7 @@ public class Hero : MonoBehaviour
             Movement.currentMovementSpeed = data.speed;
 
         }
-        else 
-        {
-            
-
-            health.hitpoints = data.heatpoints;
-        }
+       
     }
 
 }
