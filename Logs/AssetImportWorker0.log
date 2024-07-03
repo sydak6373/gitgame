@@ -15,7 +15,7 @@ E:/project/gitgame
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58763
+63828
 Successfully changed project path to: E:/project/gitgame
 E:/project/gitgame
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ E:/project/gitgame
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [4588] Host "[IP] 10.124.54.118 [Port] 0 [Flags] 2 [Guid] 1262641684 [EditorId] 1262641684 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-45DC8RAE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [1280] Host "[IP] 10.255.0.1 [Port] 0 [Flags] 2 [Guid] 1746134125 [EditorId] 1746134125 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-45DC8RAE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [4588] Host "[IP] 10.124.54.118 [Port] 0 [Flags] 2 [Guid] 1262641684 [EditorId] 1262641684 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-45DC8RAE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [1280] Host "[IP] 10.255.0.1 [Port] 0 [Flags] 2 [Guid] 1746134125 [EditorId] 1746134125 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-45DC8RAE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [PhysX] Initialized MultithreadedTaskDispatcher with 2 workers.
-Refreshing native plugins compatible for Editor in 40417.37 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 13761.57 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.34f1 (4886f5360533)
 [Subsystems] Discovering subsystems at path D:/unity/2022.3.34f1/Editor/Data/Resources/UnitySubsystems
@@ -71,13 +71,4 @@ Initialize mono
 Mono path[0] = 'D:/unity/2022.3.34f1/Editor/Data/Managed'
 Mono path[1] = 'D:/unity/2022.3.34f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/unity/2022.3.34f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56472
-Begin MonoManager ReloadAssembly
-Registering precompiled unity dll's ...
-Register platform support module: D:/unity/2022.3.34f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Register platform support module: D:/unity/2022.3.34f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.017410 seconds.
-- Loaded All Assemblies, in  3.121 seconds
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 3152 ms
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56740
