@@ -2,19 +2,19 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NPChethbaf : MonoBehaviour
+public class DialogManuUINPCSkript : MonoBehaviour
 {
-
     private NPCScript npc;
+    public GameObject dialogManuUI;
     void Start()
     {
         npc = GetComponent<NPCScript>();
-        npc.OnNPCAktions += HPbaf;
+        npc.OnNPCAktions += Damagebaf;
     }
 
 
-    private void HPbaf()
+    private void Damagebaf()
     {
-        npc.heroHealth.maxHeatpoints = 140;
+        dialogManuUI.SetActive(true);
     }
 }
