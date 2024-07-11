@@ -4,7 +4,7 @@ public class Movement : State
 {
     public delegate void IdealPositionUpdated(int position);
     public event IdealPositionUpdated OnIdealPositionUpdated;
-    private const float NormalMovementSpeed = 1.5f;
+    private const float NormalMovementSpeed = 1f;
     public static float currentMovementSpeed = NormalMovementSpeed;
     private Vector2 moveInput;
     private int idealPosition;

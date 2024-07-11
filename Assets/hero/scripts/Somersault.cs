@@ -1,13 +1,18 @@
 
+using System;
 using Unity.VisualScripting;
 using UnityEngine;
 
 public class Somersault : State
 {
     public delegate void LayerUpdated(int layer);
+    public Action OnSomersaultUpdate;
     public event LayerUpdated OnLayerUpdatedd;
     private const float SomersaultSpeedMultiplier = 3.0f;
-    private const float SomersaultDuration = 0.5f;
+
+    private const float SomersaultDuration = 0.66f;
+    private float somersaultTimer;
+
     private const float NormalMovementSpeed = 1.5f;
     private float currentMovementSpeed = NormalMovementSpeed;
     private Joystick joystick;
@@ -31,13 +36,14 @@ public class Somersault : State
     {
         base.Enter();
         OnLayerUpdatedd?.Invoke(7);
-        
+        somersaultTimer = 0;
     }
 
     public override void Exit()
     {
         base.Exit();
         OnLayerUpdatedd?.Invoke(6);
+        somersaultTimer = 0;
     }
 
 
@@ -67,6 +73,8 @@ public class Somersault : State
 
     public override void PhysicsUpdate()
     {
+        somersaultTimer += Time.deltaTime;
+        if (somersaultTimer >= SomersaultDuration) OnSomersaultUpdate?.Invoke();
         Move();
     }
 

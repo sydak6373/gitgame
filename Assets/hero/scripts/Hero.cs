@@ -5,13 +5,23 @@ using UnityEngine.UIElements;
 
 public class Hero : MonoBehaviour
 {
+    
     public LayerMask layerMask;
     public Joystick joystick;
     public Button atakButton;
     public Button somButton;
-    private float SomersaultCooldownSeconds = 1.0f;
+    private Stats stats;
+    public static int Lvl;
+
+    public static float haste = 1;
+    public static float Intelegent = 1;
+    public static float critShance = 0;
+    public static float critDAmage = 1;
+
+    private float SomersaultCooldownSeconds = 0.5f;
     private bool isSomersaultColdawn = true;
-    private float SomersaultDuration = 0.66f; 
+   
+
 
     private float AtakCooldownSeconds = 0.33f;
     private bool isAtakColdawn = true;
@@ -19,14 +29,19 @@ public class Hero : MonoBehaviour
 
     private float DamageDuration = 1f;
     private bool isDamage = true;
+
     private bool isClicedSomersault = false;
     private bool isClicedAtak = false;
 
     private Rigidbody2D rigidB;
     private Animator anim;
     private CapsuleCollider2D capsCol;
-    private RaycastHit2D hit;
+    private ExpHolder expHolder;
+
     private HealthInteraction health;
+    private ManaInteraction mana;
+    private StaminaInteraction stamina;
+
     private SpriteRenderer sprite;
 
     private Movement movement;
@@ -46,7 +61,12 @@ public class Hero : MonoBehaviour
         rigidB = GetComponent<Rigidbody2D>();
         anim = rigidB.GetComponent<Animator>();
         capsCol = GetComponent<CapsuleCollider2D>();
+
         health = GetComponent<HealthInteraction>();
+        mana = GetComponent<ManaInteraction>();
+        stamina = GetComponent<StaminaInteraction>();
+        expHolder = GetComponent<ExpHolder>();
+
         sprite = GetComponentInChildren<SpriteRenderer>();
 
         movement = new Movement(rigidB, anim, transform, capsCol, joystick);
@@ -56,15 +76,24 @@ public class Hero : MonoBehaviour
         weaponsInteraction = new WeaponsInteraction(rigidB, anim, transform, capsCol, weapon, layerMask, joystick);
         takingDamage = new TakingDamage(anim, sprite);
         dethState = new DethState(anim);
+        stats = new Stats();
+        //stats = GlobalSaveAndLoad.LoadStats();
+        //Save(pos, inv);
+
         stateMashine = new StateMashine();
 
         stateMashine.SetState(movement);
 
         movement.OnIdealPositionUpdated += UpdateIdealPosition;
         somersault.OnLayerUpdatedd += LayerUpdate;
+        somersault.OnSomersaultUpdate += SomersaultUpdate;
         health.OnChange += DamageUpdate;
 
+
         if (SaveSystem.isSaved) LoadPlayer();
+
+
+        StorableInfo.GenerateAllValuesForDB();
     }
 
     private void Update()
@@ -115,17 +144,26 @@ public class Hero : MonoBehaviour
 
     private IEnumerator SomersaultCoroutine()
     {
-        isSomersaulting = true;
-        isSomersaultColdawn = false;
-       
-        stateMashine.SetState(somersault);
-        yield return new WaitForSeconds(SomersaultDuration);
-        isSomersaulting = false;
-        yield return new WaitForSeconds(SomersaultCooldownSeconds);
-        isClicedSomersault = false;
-        isSomersaultColdawn = true;
+        if (stamina.PersCurrentStamina >= 50) 
+        {
+            stamina.Change(-50);
+            isSomersaulting = true;
+            isSomersaultColdawn = false;
+
+            stateMashine.SetState(somersault);
+          
+            yield return new WaitForSeconds(SomersaultCooldownSeconds);
+            isClicedSomersault = false;
+            isSomersaultColdawn = true;
+        }
 
     }
+    private void SomersaultUpdate()
+    {
+        isSomersaulting = false;
+    }
+
+
 
     private IEnumerator AtakCoroutine()
     {
@@ -191,28 +229,43 @@ public class Hero : MonoBehaviour
     //private void SomersaultUpdate
     public void SavePlayer()
     {
-        SaveSystem.SavePlayer(health.hitpoints, health.maxHeatpoints ,transform.position);
+       // SaveSystem.SavePlayer( health.maxHeatpoints,  mana.PersMaxMana,  stamina.PersMaxStamina, transform.position);
+    }
+    
+    public void SaveStats()
+    {
+       // SaveSystem.SavePlayer(health.maxHeatpoints, mana.PersMaxMana, stamina.PersMaxStamina );
     }
     
     public void LoadPlayer()
     {
         PlayerData data = SaveSystem.LoadPlayer();
-       // Debug.Log(data != null);
-        if (data != null) {
+        // Debug.Log(data != null);
+       
             Vector3 position;
             //Debug.Log(data.position);
-           // Debug.Log(data.heatpoints);
+            // Debug.Log(data.heatpoints);
             position.x = data.position[0];
             position.y = data.position[1];
             position.z = data.position[2];
             transform.position = position;
 
-            health.maxHeatpoints = data.maxHeatpoints;
-            health.hitpoints = data.heatpoints;
-            Weapon.damageSkale = data.damageSkaler;
-            Movement.currentMovementSpeed = data.speed;
+            health.maxHeatpoints = (int)stats.MaxHp;
+            health.hitpoints = (int)stats.MaxHp;
+            mana.PersMaxMana = (int)stats.MaxMana;
+            mana.PersCurrentMana = (int)stats.MaxMana;
+            stamina.PersMaxStamina = (int)stats.MaxStamina;
+            stamina.PersCurrentStamina = (int)stats.MaxStamina;
 
-        }
+            Weapon.damageSkale = stats.Strength;
+            Movement.currentMovementSpeed = stats.Speed;
+            haste = stats.Haste;
+            Intelegent = stats.Intellegence;
+            critShance = stats.CritChance;
+            critDAmage = stats.CritDamage;
+            Lvl = (int)stats.Lvl;
+
+       
        
     }
 

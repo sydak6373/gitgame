@@ -8,13 +8,18 @@ public class HealthInteraction : MonoBehaviour
     public int maxHeatpoints;
     [NonSerialized] public int hitpoints;
     public Action<int, int> OnChange;
-    private float lelevHP;
+    //public Stats stats;
+
+   public float lelevHP;
 
     public void Start()
     {
         lelevHP = 0;
         hitpoints = maxHeatpoints;
+        //stats.OnUpgrade += MaxhpUp; 
     }
+
+
     public void Change(int amount)
     {   if (((hitpoints + amount) >= 0) && ((hitpoints + amount) <= maxHeatpoints))
         {
@@ -39,12 +44,13 @@ public class HealthInteraction : MonoBehaviour
 
     public void MaxHpUp()
     {
-        if (lelevHP <= 50)
+        if(lelevHP < 50)
         {
             maxHeatpoints += ((int)(maxHeatpoints * (0.15 - (lelevHP * 0.003f))));
             hitpoints = maxHeatpoints;
-            ++lelevHP;
+            lelevHP++;
         }
+       // maxHeatpoints = stats.MaxHP;
     }
 
 
